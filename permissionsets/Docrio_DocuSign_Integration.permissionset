@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <classAccesses>
+        <apexClass>DocrioDocusign</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>DocrioDocusignAttachmentTriggerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>DocrioDocusignContentDocumentTriggerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>DocrioDocusignTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>DocrioDocusignTestUtil</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <customSettingAccesses>
+        <enabled>true</enabled>
+        <name>DocrioDocusignSettings__c</name>
+    </customSettingAccesses>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Docrio DocuSign Integration</label>
+</PermissionSet>

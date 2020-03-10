@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Custom Settings used by Docrio Docusign Integration</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>AWS_API_Prefix__c</fullName>
+        <externalId>false</externalId>
+        <label>AWS API Prefix</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>AWS_Org_Info_API_Prefix__c</fullName>
+        <externalId>false</externalId>
+        <label>AWS Org Info API Prefix</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <label>Docrio Docusign Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

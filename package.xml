@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Docrio DocuSign Integration</fullName>
+    <types>
+        <members>DocrioDocusign</members>
+        <members>DocrioDocusignAttachmentTriggerTest</members>
+        <members>DocrioDocusignContentDocumentTriggerTest</members>
+        <members>DocrioDocusignTest</members>
+        <members>DocrioDocusignTestUtil</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>DocrioDocusignAttachment</members>
+        <members>DocrioDocusignContentDocument</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>DocrioDocusignSettings__c.AWS_API_Prefix__c</members>
+        <members>DocrioDocusignSettings__c.AWS_Org_Info_API_Prefix__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>DocrioDocusignSettings__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Docrio_DocuSign_Integration</members>
+        <name>PermissionSet</name>
+    </types>
+    <version>47.0</version>
+</Package>
